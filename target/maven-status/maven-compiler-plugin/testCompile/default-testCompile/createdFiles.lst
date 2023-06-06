@@ -1,0 +1,3 @@
+com\gorest\testbase\TestBase.class
+com\gorest\userinfo\UserCRUDTestWithSteps.class
+com\gorest\userinfo\UserTagsTest.class

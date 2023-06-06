@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.gorest.userinfo.UserTagsTest" skipped="0" tests="3" time="6.36" timestamp="2023-06-06T23:05:56.747+01:00[Europe/London]"><testcase classname="com.gorest.userinfo.UserTagsTest" name="Provide a 405 status code when incorrect HTTP method is used to access resource"><failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.userinfo.UserTagsTest.invalidMethod(UserTagsTest.java:40)&#13;
+</system-err></testcase><testcase classname="com.gorest.userinfo.UserTagsTest" name="This test will verify if a status code of 200 is returned for GET request"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.userinfo.UserTagsTest.verifyIfTheStatusCodeIs200(UserTagsTest.java:27)&#13;
+</system-err></testcase><testcase classname="com.gorest.userinfo.UserTagsTest" name="This test will provide an error code of 404 when user tries to access an invalid resource"/></testsuite>
